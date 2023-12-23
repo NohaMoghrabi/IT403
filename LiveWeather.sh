@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Your OpenWeather API key
+# OpenWeather API key
 apiKey="3133d7ca14f1a52d6feda7ff2ecf2c55"
 
 # Check if the city name is provided as an argument
