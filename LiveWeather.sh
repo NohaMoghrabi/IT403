@@ -34,3 +34,5 @@ echo "Temperature: $(echo "$weather" | jq -r '.main.temp')°C"
 echo "Description: $(echo "$weather" | jq -r '.weather[0].description')"
 echo "Humidity: $(echo "$weather" | jq -r '.main.humidity')%"
 echo "Wind Speed: $(echo "$weather" | jq -r '.wind.speed') meter/sec"
+
+#The End.
